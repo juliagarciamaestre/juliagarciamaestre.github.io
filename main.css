@@ -33,8 +33,8 @@ h2{
 }
 
 .photo_redimision{
-    width: 85%;
-    height: 85%;
+    width: 75%;
+    height: 80%;
     position: relative;
     border-radius: 0.5em;
 }
@@ -61,6 +61,7 @@ h2{
     justify-self: end;
     grid-column: 2/3;
     grid-row: 1/6;
+    float: right;
 }
 
 li {
