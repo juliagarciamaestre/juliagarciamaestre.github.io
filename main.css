@@ -15,8 +15,7 @@
 }
 
 .myname{
-    font-size: 3em;
-    margin-left: 100px;
+    font-size: 2em;
     font-family: 'Satisfy', cursive;
 }
 .section_tittle{
@@ -29,7 +28,7 @@
 h2{
     font-family: 'Satisfy', cursive;
     margin-top: -50px;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .photo_redimision{
