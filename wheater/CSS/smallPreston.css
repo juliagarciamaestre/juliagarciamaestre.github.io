@@ -1,0 +1,122 @@
+/* Small/Phone View ***************/
+
+header{
+    background-color: #2E403D;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+
+.title_color{
+    color: #A4B9AB;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    margin-top: 40px;
+    
+}
+
+.preston_title{
+    color: #2E403D;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.placeholder{
+    font-family: 'Raleway', sans-serif;
+    border: dashed 1px;
+    padding: 1em;
+    margin-bottom: 1em;
+    max-width: 760px;
+    font-weight: bold;
+    background-color: #F2D1B1
+
+}
+q{
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+
+nav {
+	margin: 0 auto;
+	background-color: #A4B9AB;
+}
+.menunavigation {
+	list-style: none;
+	padding: 0;
+    margin-top: -1px;
+}
+.menunavigation li:first-child {
+	display: block;
+}
+.menunavigation li {
+	display: none;
+}
+.menunavigation a {
+	display: block;
+	transition: 0.5s;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #2E403D;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    /* margin-block-start: -1em; (It also change the elements inside) */
+}
+
+.menunavigation a.home::before {
+	content: "➕";
+}
+
+.menunavigation a:hover {
+	color: black;
+	background-color: #D2F2B1;
+}
+
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.home::before {
+	content: "➖";
+}
+
+footer{
+    background-color: #2E403D;
+    padding: 5px 0;
+    margin: 0 auto;
+}
+
+.fotter_text{
+    color: #A4B9AB;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.date_fotter{
+    display: flex;
+    color: #A4B9AB;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+
+}
+
+.pdate{
+    margin-left: 5px;
+}

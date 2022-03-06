@@ -1,0 +1,18 @@
+@media only screen and (min-width: 56em) {
+    .placeholder{
+        margin: auto;
+        margin-bottom: 1em;
+        background-color: #D2F2B1;
+    }
+    .menunavigation a{
+        font-size: 25px;
+    }
+
+    .preston_title{
+        font-size: 40px;
+    }
+    .title_color{
+        font-size: 50px;
+    }
+
+  }
