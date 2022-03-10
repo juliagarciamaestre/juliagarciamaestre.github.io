@@ -22,4 +22,38 @@
 	.title_color{
 		margin-bottom: 10px;
 	}
+
+
+	.herodiv{
+		position: relative;
+	}
+
+	.heroimg{
+		margin: 10px auto;
+		width: 100%;
+		height: 100%;
+	}
+
+	.townimg{
+		min-width: 29.2em;
+		max-width: 35em;
+	}
+
+
+	.weathersummary{
+		position: absolute;
+		top: 2.5em;
+		left: 3em;
+		border: 1px solid gray;
+		box-shadow: 0 0 30px #333;
+		opacity: 0.9;
+	}
+
+	.weathersummary p{
+		padding-left: 20px;
+	}
+
+	.weathersummary h3{
+		padding-right: 10px;
+	}
 }

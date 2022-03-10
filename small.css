@@ -1,0 +1,7 @@
+@media only screen and (mid-width: 32.5em) {
+.photo{
+    justify-self: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+}
