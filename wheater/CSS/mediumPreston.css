@@ -56,4 +56,26 @@
 	.weathersummary h3{
 		padding-right: 10px;
 	}
+
+	.fivedayflex{
+		display: flex;
+	}
+
+	.day-img{
+		width: 40%;
+	}
+	
+	.day-col{
+		align-items: center;
+		margin-left: 0px;
+	}
+
+	.day-tem{
+		margin-left: 25px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.day-h{
+		font-family: 'Raleway', sans-serif;
+	}
 }

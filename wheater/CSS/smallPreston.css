@@ -153,3 +153,7 @@ footer{
 .weathersummary p{
     padding-left: 10px;
 }
+
+.fivedayflex{
+    display: none;
+}
