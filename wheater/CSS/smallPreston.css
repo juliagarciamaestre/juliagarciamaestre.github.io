@@ -1,6 +1,6 @@
 /* Small/Phone View ***************/
 
-header{
+.headerflex{
     background-color: #2E403D;
     padding: 5px 0;
     display: flex;
@@ -10,6 +10,16 @@ header{
     margin-bottom: 0px;
 }
 
+.specialmessage{
+    margin: 0 auto;
+    margin-top: 0px;
+    min-width: fit-content;
+    background-color: #F2D1B1;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .title_color{
     color: #A4B9AB;
