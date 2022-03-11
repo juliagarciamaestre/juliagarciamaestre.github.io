@@ -15,9 +15,15 @@
 		display: none;
 	}
 
+	a.active{
+	
+		border-bottom: 1em solid;
+		border-bottom-width: thick;
+	}
 	.placeholder{
 		text-align: center;
 		background-color: #F2F1B1;
+		
 	}
 	.title_color{
 		margin-bottom: 10px;
@@ -78,4 +84,14 @@
 	.day-h{
 		font-family: 'Raleway', sans-serif;
 	}
+
+	
+	/* .container{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: wrap;
+	} */
+
+
 }

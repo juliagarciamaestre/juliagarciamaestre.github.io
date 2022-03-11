@@ -86,6 +86,11 @@ nav {
 }
 
 
+a.active{
+    color: #2E403D;
+    font-family: 'Satisfy', cursive;
+}
+
 .responsive li {
 	display: block;
 }
