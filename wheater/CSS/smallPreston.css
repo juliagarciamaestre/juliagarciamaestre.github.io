@@ -90,7 +90,7 @@ nav {
 	content: "➕";
 }
 
-.menunavigation a:hover {
+.menunavigation li:hover {
 	color: black;
 	background-color: #D2F2B1;
 }
