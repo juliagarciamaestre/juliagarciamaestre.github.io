@@ -59,6 +59,7 @@
 		border: 1px solid gray;
 		box-shadow: 0 0 30px #333;
 		opacity: 0.9;
+
 	}
 
 	.weathersummary p{
@@ -71,6 +72,8 @@
 
 	.fivedayflex{
 		display: flex;
+		margin: auto;
+		max-width: 950px;
 	}
 
 	.day-img{
