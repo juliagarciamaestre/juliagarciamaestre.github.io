@@ -52,7 +52,6 @@
     border: 1px solid;
     padding: 1em;
     margin-bottom: 1em;
-    max-width: 760px;
     background-color: #F2D1B1;
 }
 q{
@@ -179,4 +178,18 @@ footer{
 
 .fivedayflex{
     display: none;
+}
+
+h1{
+    color: #2E403D;
+    font-family: 'Satisfy', cursive;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.titleplaceholder p{
+    line-height: 30px;
 }

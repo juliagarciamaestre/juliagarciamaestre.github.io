@@ -84,7 +84,12 @@
 		font-family: 'Raleway', sans-serif;
 	}
 
-	
+	.articleimg{
+		float: right;
+		max-width: 250px;
+		border: 1px solid gray;
+		box-shadow: 0 0 30px #333;
+	}
 	/* .container{
 		display: flex;
 		flex-direction: column;
