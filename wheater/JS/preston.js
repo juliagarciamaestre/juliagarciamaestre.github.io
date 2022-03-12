@@ -26,12 +26,12 @@ document.querySelector('#Day').textContent = actualDay
 document.querySelector('#Date').textContent = acutalDate
 document.querySelector('#Month').textContent = actualMonth
 document.querySelector('#Year').textContent = actualYear
+console.log(actualDay)
 
-const specialMessage = document.querySelector('.specialmessage');
-let friday = days[5]
-function showMessage(){
-    if (acutalDate != friday){
-        specialMessage.style.display ='block'
-        console.log(friday)
+// const specialMessage = document.querySelector('.specialmessage');
+// let friday = days[5]
+
+if (actualDay != friday){
+        document.querySelector('.specialmessage').style.display ='none'
+
     }
-}
