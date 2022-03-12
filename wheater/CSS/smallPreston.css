@@ -39,20 +39,24 @@
 
 .placeholder{
     font-family: 'Raleway', sans-serif;
-    border: dashed 1px;
     padding: 1em;
     margin-bottom: 1em;
-    max-width: 760px;
     font-weight: bold;
-    background-color: #F2D1B1
+    background-color: #F2D1B1;
+    height: 350px;
 
 }
 
+.prestonimg{
+    display: none;
+}
+
 .titleplaceholder{
-    border: 1px solid;
     padding: 1em;
-    margin-bottom: 1em;
-    background-color: #F2D1B1;
+    /* margin-bottom: 1em; */
+    border-bottom: 3em solid white;
+    background-color: #D2F2B1;
+    border-top: 3em solid white;
 }
 q{
     
@@ -193,3 +197,8 @@ p{
 .titleplaceholder p{
     line-height: 30px;
 }
+
+.adress h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

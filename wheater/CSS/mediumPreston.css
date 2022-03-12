@@ -22,12 +22,19 @@
 	.placeholder{
 		text-align: center;
 		background-color: #F2F1B1;
+		margin: auto;
+		max-width: 950px;
 		
 	}
 	.title_color{
 		margin-bottom: 10px;
 	}
 
+	.titleplaceholder{
+		margin: auto;
+		max-width: 950px;
+		background-color: #F2D1B1;
+	}
 
 	.herodiv{
 		position: relative;
@@ -89,6 +96,12 @@
 		max-width: 250px;
 		border: 1px solid gray;
 		box-shadow: 0 0 30px #333;
+	}
+
+	.prestonimg{
+		display:block;
+		float: left;
+		max-height: 350px;
 	}
 	/* .container{
 		display: flex;
