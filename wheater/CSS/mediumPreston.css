@@ -41,14 +41,15 @@
 	}
 
 	.heroimg{
-		margin: 10px auto;
+		margin: auto;
+		max-width: 1000px;
 		width: 100%;
 		height: 100%;
 	}
 
 	.townimg{
 		min-width: 29.2em;
-		max-width: 35em;
+		max-width: -webkit-fill-available;
 	}
 
 
@@ -73,7 +74,7 @@
 	.fivedayflex{
 		display: flex;
 		margin: auto;
-		max-width: 950px;
+		max-width: 750px;
 	}
 
 	.day-img{
