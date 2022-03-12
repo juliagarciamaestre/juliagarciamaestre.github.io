@@ -47,6 +47,14 @@
     background-color: #F2D1B1
 
 }
+
+.titleplaceholder{
+    border: 1px solid;
+    padding: 1em;
+    margin-bottom: 1em;
+    max-width: 760px;
+    background-color: #F2D1B1;
+}
 q{
     
     color: rgb(255, 255, 255);
@@ -141,7 +149,7 @@ footer{
     justify-content: center;
 }
 .townimg{
-    max-width: 29.2em;
+    max-width: -webkit-fill-available;
 }
 
 .weathersummary{
