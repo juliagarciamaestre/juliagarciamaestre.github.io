@@ -151,6 +151,10 @@ footer{
     margin: 0px auto;
     justify-content: center;
 }
+
+.heroimg img{
+    max-width: -webkit-fill-available;
+}
 .townimg{
     max-width: -webkit-fill-available;
 }
@@ -158,6 +162,7 @@ footer{
 .weathersummary{
     margin-top: -1.5em;
     background-color: #F2F1B1;
+    ;
     padding-bottom: 10px;
 }
 
