@@ -16,6 +16,7 @@
     }
     .weathersummary{
         left: 21em;
+        background-color: #F2F1B1;
     }
     .townimg{
         max-width: 1000px;
