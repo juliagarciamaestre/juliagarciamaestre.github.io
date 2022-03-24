@@ -1,0 +1,32 @@
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.menunavigation {
+		display: flex;
+	}
+	.menunavigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.menunavigation a {
+		text-align: center;
+	}
+	.menunavigation li:first-child {
+		display: none;
+	}
+
+	.title_color{
+		margin-bottom: 10px;
+	}
+
+	/* .container{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: wrap;
+	} */
+    div section{
+        background-color: #D2F2B1;
+    }
+
+}
