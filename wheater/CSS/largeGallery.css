@@ -29,5 +29,7 @@
     img:hover{
         box-shadow: 0 0 50px #2E403D;
     }
-    
+    .picture1, .picture4, .picture7{
+        margin-left: 50px;
+    }
   }
