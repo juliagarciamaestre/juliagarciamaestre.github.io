@@ -28,5 +28,16 @@
     div section{
         background-color: #D2F2B1;
     }
+    .titleplaceholder{
+		margin: auto;
+		max-width: 950px;
+		background-color: #F2D1B1;
+	}
+    .articleimg{
+		float: right;
+		max-width: 250px;
+		border: 1px solid gray;
+		box-shadow: 0 0 30px #333;
+	}
 
 }

@@ -222,3 +222,13 @@ div section{
 img{
     width: 400px;
 }
+.articleimg{
+    max-width: -webkit-fill-available;
+}
+.titleplaceholder{
+    padding: 1em;
+    /* margin-bottom: 1em; */
+    border-bottom: 3em solid white;
+    background-color: #D2F2B1;
+    border-top: 3em solid white;
+}

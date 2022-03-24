@@ -15,11 +15,17 @@
         width: 600px;
         background-color: #D2F2B1;
     }
-   div img{
+    .cards img{
        width: 600px;
        height: 400px;
-   }
+    }
    .cards h1{
     margin-left: 250px;
+    }
+    .articleimg {
+        float: right;
+        max-width: 250px;
+        border: 1px solid gray;
+        box-shadow: 0 0 30px #333;
     }
   }
