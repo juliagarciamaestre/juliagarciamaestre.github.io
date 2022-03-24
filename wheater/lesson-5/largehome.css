@@ -1,0 +1,25 @@
+@media only screen and (min-width: 56em) {
+    .menunavigation a{
+        font-size: 25px;
+    }
+
+    .title_color{
+        font-size: 50px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 10px;
+    }
+    div section{
+        width: 600px;
+        background-color: #D2F2B1;
+    }
+   div img{
+       width: 600px;
+       height: 400px;
+   }
+   div h1{
+    margin-left: 250px;
+    }
+  }
