@@ -4,7 +4,18 @@ fetch(requestURL)
         return response.json()
     })
     .then(function(jsonObject){
-        const towns = jsonObject["towns"];
+        const towns = jsonObject["towns"].filter((town) =>{
+            if(town.name === "Preston"){
+                return town;
+            }
+            if (town.name === "Fish Haven") {
+                return town;
+            }
+            if (town.name === "Soda Springs"){
+                return town;
+            }
+        });
+        
         for (let i =0; i < towns.length; i++ ) {
             let card = document.createElement("section");
             let h1 = document.createElement("h1");
