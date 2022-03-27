@@ -1,0 +1,9 @@
+img{
+    width: 300px;
+    height: 400px;
+}
+main{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}

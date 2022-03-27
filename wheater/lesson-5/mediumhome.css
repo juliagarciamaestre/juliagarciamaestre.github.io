@@ -25,9 +25,19 @@
 		align-content: center;
 		flex-wrap: wrap;
 	} */
-    div section{
+    .cards section{
         background-color: #D2F2B1;
+		max-width: 600px;
+		margin: .5em auto;
+		border: 1px solid gray;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
     }
+
+	.cards section:nth-child(odd){
+		flex-direction: row-reverse;
+	}
     .titleplaceholder{
 		margin: auto;
 		max-width: 950px;
