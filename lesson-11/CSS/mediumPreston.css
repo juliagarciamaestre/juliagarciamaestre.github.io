@@ -1,0 +1,119 @@
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.menunavigation {
+		display: flex;
+	}
+	.menunavigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.menunavigation a {
+		text-align: center;
+	}
+	.menunavigation li:first-child {
+		display: none;
+	}
+
+	a.active{
+		border-bottom: 1em solid;
+		border-bottom-width: thick;
+	}
+	.placeholder{
+		text-align: center;
+		background-color: #F2F1B1;
+		margin: auto;
+		max-width: 950px;
+		
+	}
+	.title_color{
+		margin-bottom: 10px;
+	}
+
+	.titleplaceholder{
+		margin: auto;
+		max-width: 950px;
+		background-color: #F2D1B1;
+	}
+
+	.herodiv{
+		position: relative;
+	}
+
+	.heroimg{
+		margin: auto;
+		max-width: 600px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.townimg{
+		min-width: 29.2em;
+		max-width: -webkit-fill-available;
+	}
+
+
+	.weathersummary{
+		position: absolute;
+		top: 2.5em;
+		left: 3em;
+		border: 1px solid gray;
+		box-shadow: 0 0 30px #333;
+		opacity: 0.9;
+		background-color: #D2F2B1;
+
+	}
+
+	.weathersummary p{
+		padding-left: 20px;
+	}
+
+	.weathersummary h3{
+		padding-right: 10px;
+	}
+
+	.fivedayflex{
+		display: flex;
+		margin: auto;
+		max-width: 750px;
+	}
+
+	.day-img{
+		width: 40%;
+	}
+	
+	.day-col{
+		align-items: center;
+		margin-left: 0px;
+	}
+
+	.day-tem{
+		margin-left: 25px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.day-h{
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.articleimg{
+		float: right;
+		max-width: 250px;
+		border: 1px solid gray;
+		box-shadow: 0 0 30px #333;
+	}
+
+	.prestonimg{
+		display:block;
+		float: left;
+		max-height: 350px;
+	}
+	/* .container{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: wrap;
+	} */
+
+
+}
