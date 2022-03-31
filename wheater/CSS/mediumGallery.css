@@ -34,6 +34,19 @@
         grid-template-columns: repeat(2, 1fr);
     }
     
+	.placeholder{
+		text-align: center;
+		background-color: #F2F1B1;
+		margin: auto;
+		max-width: 950px;
+		
+	}
+	.prestonimg{
+		display:block;
+		float: left;
+		max-height: 350px;
+	}
+	
     img{
         width: 400px;
         height: 267px;

@@ -32,12 +32,18 @@
     font-weight: bold;
     background-color: #F2D1B1;
     height: 350px;
-
+    border-top: 3em solid white;
 }
+
 
 .prestonimg{
     display: none;
 }
+
+.adress h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 q{
     
     color: rgb(255, 255, 255);

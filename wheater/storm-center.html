@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="lesson-5/smallhome.css">
-    <link rel="stylesheet" href='lesson-5/mediumhome.css'>
-    <link rel="stylesheet" href="lesson-5/largehome.css">
+    <link rel="stylesheet" href="CSS/smallPreston.css">
+    <link rel="stylesheet" href='CSS/mediumPreston.css'>
+    <link rel="stylesheet" href="CSS/largePreton.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
         <div class="specialmessage">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</div>
         <section class="headerflex">
             <picture>
-                <img id='logo' src="images/logo.png" alt="Aravova logo">
+                <img id='logo' src="images/logo.png" alt="Aravova logo" href="index.html">
             </picture>
             <div class='logoq'>
             <h1 class="title_color">Aravova Site</h1>
@@ -34,21 +34,28 @@
     </header>
     <nav>
         <ul class="menunavigation">
-            <li><a class='home' id="active" href='#'>Home</a></li>
+            <li><a class='home' href='#'>Home</a></li>
             <li ><a href="preston.html" >Preston</a></li>
             <li><a href='soda-springs.html'>Soda Springs</a></li>
             <li><a href='fish-haven.html'>Fish Haven</a></li>
-            <li><a href='storm-center.html'>Strom Center</a></li>
+            <li><a class="active"  href='storm-center.html'>Strom Center</a></li>
             <li><a href='gallery-7.html'>Gallery</a></li>
         </ul>
     </nav>
-    <main>
-        <div class="cards"></div>
-        <div class="titleplaceholder">
-            <img class='articleimg' src="images/prestonarticle.png" alt="Article Image">
-            <h1>Article Title Go Here</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec lacus ut felis scelerisque euismod et id magna. Proin fermentum nec lectus vitae porta. Donec imperdiet sem nec tortor lobortis, ac imperdiet ante fringilla. Duis interdum volutpat mauris, eu mollis tellus vehicula eget. Pellentesque vel maximus arcu, ac ultrices lectus. Vivamus ultricies orci in tincidunt bibendum. Etiam scelerisque risus sit amet fringilla varius. Etiam ultricies dictum augue ac tincidunt. Quisque sed efficitur diam, vel tincidunt arcu. Donec rutrum ultricies facilisis. Fusce nec arcu vitae ipsum eleifend consequat. Donec commodo mollis sapien, fermentum maximus lorem volutpat eu. Aenean condimentum, magna non gravida condimentum, augue arcu ultricies libero, eget malesuada dui justo ac nulla. Curabitur bibendum massa eu ex tincidunt, eu euismod dolor sagittis. lore,
-            </p>
+    <main class="container">
+        <h2 class="preston_title">Strom Center</h2>
+
+        <div class="placeholder">
+            <img class="prestonimg" src="images/prestonmap.png" alt="preston map">
+            <section class="adress">
+                <h4>Aravova Site</h4>
+                <p>30 N 1st E</p>
+                <p>Preston, ID 83263</p>
+            </section>
+            <section>
+                <p>985-289-5345</p>
+                <p>aravovasite@gmail.com</p>
+            </section>
         </div>
     </main>
     <footer>
@@ -68,6 +75,5 @@
     </footer>
     <script src="JS/preston.js"></script>
     <script src="JS/windchill.js"></script>
-    <script src="lesson-5/cards.js"></script>
 </body>
 </html>
