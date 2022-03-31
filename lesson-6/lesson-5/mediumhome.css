@@ -30,14 +30,13 @@
 		max-width: 600px;
 		margin: .5em auto;
 		border: 1px solid gray;
-		display: flex;
+		/* display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
+		flex-direction: row; */
     }
-
-	.cards section:nth-child(odd){
+	/* .cards section:nth-child(odd){
 		flex-direction: row-reverse;
-	}
+	} */
     .titleplaceholder{
 		margin: auto;
 		max-width: 950px;

@@ -15,12 +15,13 @@
         width: 600px;
         background-color: #D2F2B1;
     }
+
     .cards img{
        width: 600px;
        height: 400px;
     }
    .cards h1{
-    margin-left: 250px;
+        margin-left: 250px;
     }
     .articleimg {
         float: right;

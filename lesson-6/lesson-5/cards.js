@@ -25,7 +25,7 @@ fetch(requestURL)
             let h4 = document.createElement("h4");
             h4.textContent = towns[i].motto;
             card.appendChild(h4)
-            let p = document.createElement("p");
+            let p = document.createElement("h5");
             p.textContent = "Year Founded: " + towns[i].yearFounded;
             card.appendChild(p)
             let p2 = document.createElement("p");
