@@ -2,7 +2,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        // console.log(jsObject);
         const desc = jsObject.weather[0].description;
         document.querySelector("#temperatura").textContent = desc;
         const highT = jsObject.main.temp;
@@ -24,7 +24,7 @@ const forecastApiUrl ="https://api.openweathermap.org/data/2.5/forecast?id=56044
 fetch(forecastApiUrl)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        // console.log(jsObject);
         // const days = [
         //     "Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
         // ]; //Is not workign as spected, tried other solutions later...
@@ -39,7 +39,7 @@ fetch(forecastApiUrl)
                 // console.log(day) //Is not working as spected, tried other solution later...
                 let dayTemperature = forecastTemperature[i].main.temp;  //This is only working with the first one
                 document.querySelector(".day-tem").textContent = dayTemperature + "°F"
-                console.log(dayTemperature);    
+                // console.log(dayTemperature);    
             }
     })
 

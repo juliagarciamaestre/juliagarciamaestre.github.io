@@ -26,7 +26,7 @@ document.querySelector('#Day').textContent = actualDay
 document.querySelector('#Date').textContent = acutalDate
 document.querySelector('#Month').textContent = actualMonth
 document.querySelector('#Year').textContent = actualYear
-console.log(actualDay)
+// console.log(actualDay)
 
 const specialMessage = document.querySelector('.specialmessage');
 let friday = days[5]
