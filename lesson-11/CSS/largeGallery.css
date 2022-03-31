@@ -1,0 +1,35 @@
+@media only screen and (min-width: 56em) {
+    .placeholder{
+        margin: auto;
+        margin-bottom: 1em;
+        background-color: #D2F2B1;
+    }
+    .menunavigation a{
+        font-size: 25px;
+    }
+
+    .gallery_title{
+        font-size: 40px;
+    }
+    .title_color{
+        font-size: 50px;
+    }
+    .pictures{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .picture1fig, .picture3fig, .picture5fig, .picture7fig, .picture9fig{
+        background-color: #D2F2B1;
+        
+    }
+
+    .picture2fig, .picture4fig, .picture6fig, .picture8fig{
+        background-color: #f2f1b1;
+
+    }
+    img:hover{
+        box-shadow: 0 0 50px #2E403D;
+    }
+    .picture1, .picture4, .picture7{
+        margin-left: 50px;
+    }
+  }
