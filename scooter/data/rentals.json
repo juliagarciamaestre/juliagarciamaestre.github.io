@@ -6,7 +6,8 @@
             "reservationhalfday": "$20",
             "reservationfullday": "$30",
             "walkinhalfday": "$25",
-            "walkinfullday": "$35"  
+            "walkinfullday": "$35",
+            "imageurl": ""
         },
         {
             "rentaltype": "Honda Dio Scooter",
