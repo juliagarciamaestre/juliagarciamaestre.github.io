@@ -1,0 +1,127 @@
+/* Small/Phone View ***************/
+
+.headerflex{
+    background-color: #F7F7F7;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.title_color{
+    color: #A4B9AB;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    margin-top: 40px;
+    
+}
+
+
+nav {
+	margin: 0 auto;
+	background-color: #38040E;
+}
+.menunavigation {
+	list-style: none;
+	padding: 0;
+    margin-top: -1px;
+}
+.menunavigation li:first-child {
+	display: block;
+}
+.menunavigation li {
+	display: none;
+}
+.menunavigation a {
+	display: block;
+	transition: 0.5s;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #F7F7F7;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    /* margin-block-start: -1em; (It also change the elements inside) */
+}
+
+.menunavigation a.home::before {
+	content: "➕";
+}
+
+.menunavigation li:hover {
+	color: black;
+	background-color: #1D492E;
+    
+}
+
+
+a.active{
+    color: #A4B9AB;
+    font-family: "Raleway", sans-serif;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.home::before {
+	content: "➖";
+}
+
+.slider{
+    width: 600px;
+}
+.slider ul{
+    display: flex;
+    padding:0;
+    width: 600px;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width:600px;
+    height: auto;
+}
+
+.slidercontainer{
+    margin: auto;
+    margin-top: -32px;
+    border-bottom: 15px solid #38040E;
+    border-bottom-width: thick;
+}
+
+.hondascooters{
+    background-color: #1D492E;
+}
+
+.atv{
+    background-color: #A4B9AB;
+}
+
+.jeep{
+    background-color: #1D492E;
+}
+
+.rentals{
+    display: block;
+}
+
+.rentals h2{
+    margin-left: 50px;
+}
+
+.jeep li{
+    margin-left: -15px;
+}
+.placeholder{
+    margin: 0 auto;
+	background-color: #38040E;
+    color: white;
+}

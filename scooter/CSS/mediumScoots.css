@@ -1,0 +1,46 @@
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.menunavigation {
+		display: flex;
+	}
+	.menunavigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.menunavigation a {
+		text-align: center;
+	}
+	.menunavigation li:first-child {
+		display: none;
+	}
+
+	a.active{
+		border-top: 1em solid #D1D3C4;
+		border-top-width: thick;
+	}
+
+	.title_color{
+		margin-bottom: 10px;
+	}
+	
+    img{
+        width: 400px;
+        height: 267px;
+    }
+	.slidercontainer{
+		display: flex;
+	}
+
+	.rentals{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-top: 3em;
+	}
+	.weathersummary{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
