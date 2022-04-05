@@ -7,7 +7,7 @@
             "reservationfullday": "$30",
             "walkinhalfday": "$25",
             "walkinfullday": "$35",
-            "imageurl": ""
+            "imageurl": "juliagarciamaestre.github.io/scooter/images/scooter2_600.jpg"
         },
         {
             "rentaltype": "Honda Dio Scooter",
@@ -15,7 +15,8 @@
             "reservationhalfday": "$30",
             "reservationfullday": "$40",
             "walkinhalfday": "$35",
-            "walkinfullday": "$45"  
+            "walkinfullday": "$45",
+            "imageurl": "https://juliagarciamaestre.github.io/scooter/images/scooter3_600.jpg"
         },
         {
             "rentaltype": "Honda PCX150 Scooter",
@@ -23,7 +24,8 @@
             "reservationhalfday": "$40",
             "reservationfullday": "$50",
             "walkinhalfday": "$45",
-            "walkinfullday": "$55"  
+            "walkinfullday": "$55",
+            "imageurl":"https://juliagarciamaestre.github.io/scooter/images/scooter4_600.jpg"
         },
         {
             "rentaltype": "Honda Pioneer ATV",
@@ -31,15 +33,17 @@
             "reservationhalfday": "$50",
             "reservationfullday": "$70",
             "walkinhalfday": "$60",
-            "walkinfullday": "$80"  
-        },
+            "walkinfullday": "$80",
+            "imageurl": "htpps://juliagarciamaestre.github.io/scooter/images/atv2_600.jpg"
+        },  
         {
             "rentaltype": "Jeep Wrangler - 4 door with a/c",
             "maxpersons": "5",
             "reservationhalfday": "$70",
             "reservationfullday": "$100",
             "walkinhalfday": "$85",
-            "walkinfullday": "$125"  
+            "walkinfullday": "$125",
+            "imageurl": "https://juliagarciamaestre.github.io/scooter/images/jeep4_600.jpg"
         },
         {
             "rentaltype": "Jeep Wrangler - 2 door",
@@ -47,7 +51,8 @@
             "reservationhalfday": "$60",
             "reservationfullday": "$85",
             "walkinhalfday": "$70",
-            "walkinfullday": "$90"  
+            "walkinfullday": "$90",
+            "imageurl": "https://juliagarciamaestre.github.io/scooter/images/jeep2_600.jpg"
         }
     ]
 }
