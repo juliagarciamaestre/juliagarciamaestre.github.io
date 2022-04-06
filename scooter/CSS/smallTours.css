@@ -80,48 +80,10 @@ a.active{
     display: block;
 }
 
-.rentals section{
-    margin-bottom: 20px;
-    background-color: #A4B9AB;
-}
 .rentals h2{
     margin-left: 50px;
 }
 
-.rentals_title{
-    padding-top: 20px;
-    font-family: 'Sriracha', cursive;
-}
-h4, h3, p{
-    font-family: "Raleway", sans-serif;
-
-}
-.rental_section h2{
-    text-align: center;
-}
-.maxperson{
-    text-align: center;
-}
-.rental_section h3, p{
-    margin-left: 18px;
-}
-.rental_section{
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.rental_section img{
-    width: 100%;
-}
-.rental_section p{
-    margin-left: 20%;
-}
-p{
-    font-weight: bold;
-}
-h3{
-    text-decoration: underline;
-
-}
 .jeep li{
     margin-left: -15px;
 }
@@ -139,6 +101,7 @@ h3{
     display: flex;
     padding:0;
     width: 600px;
+
     animation: cambio 20s infinite;
 }
 
@@ -155,12 +118,8 @@ h3{
 .slidercontainer{
     margin: auto;
     margin-top: -32px;
-    border-bottom: 10px solid #1D492E;
 }
 
-.hondascooters, .atv, .jeep{
-    width: 600px;
-}
 
 footer{
     margin: 0 auto;
@@ -189,6 +148,8 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+
 @keyframes cambio{
     0% { margin-left: 0;}
     20% { margin-left: 0;}

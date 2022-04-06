@@ -20,37 +20,39 @@
 		border-top-width: thick;
 	}
 
-	.title_color{
-		margin-bottom: 10px;
-	}
-	
     img{
         width: 400px;
         height: 267px;
     }
 
 	.rentals{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
 		margin-top: 3em;
-	}
-	.weathersummary{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+		display: grid;
+		grid-gap: 50px;
+		grid-template-columns: repeat(2, 1fr);
 	}
 
+	.rentals_title{
+		padding-top: 0px;
+	}
+
+
     .slider{
+		width: fit-content;
         display: block;
         overflow: visible;
     }
     .slider ul {
-        animation:  none;
+        animation: none;
     }
-
+	.slider img{
+		width: 400px;
+	}
     .slidercontainer{
+	
         margin-top: -17px;
+		/* display: flex;
+		align-items: center; */
     }
     nav{
         width: auto;

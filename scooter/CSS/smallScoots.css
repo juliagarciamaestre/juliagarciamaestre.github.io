@@ -71,15 +71,15 @@ a.active{
 	content: "➖";
 }
 
+
 .slider{
-    width: 600px;
+    width: 100%;
     overflow: hidden;
 }
 .slider ul{
     display: flex;
     padding:0;
-    width: 600px;
-
+    width: 100%;
     animation: cambio 20s infinite;
 }
 
@@ -117,17 +117,30 @@ a.active{
     text-align: center;
     font-size: 3em;
 }
-button{
-    background-color: #38040E;
-    color: #F7F7F7;
+.buttoncontainer{
     text-align: center;
 }
-
+.button{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #38040E;
+    border-color: #6A3A44;
+    border-width: 3px;
+    border-style: solid;
+    font-family: "Raleway", sans-serif;
+}
 .weathersummary{
 
     background-color: #6A3A44;
     color: white;
     margin-top: -20px;
+    font-family: "Raleway", sans-serif;
 }
 .hondascooters{
     background-color: #1D492E;
@@ -136,7 +149,15 @@ button{
 .atv{
     background-color: #A4B9AB;
 }
+.atv h2, .hondascooters h2, .jeep h2{
+    font-family: 'Sriracha', cursive;
+}
 
+.atv li, .hondascooters li, .jeep li{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
 .jeep{
     background-color: #1D492E;
 }
@@ -152,10 +173,32 @@ button{
 .jeep li{
     margin-left: -15px;
 }
-.placeholder{
+footer{
     margin: 0 auto;
+    padding: 5px 0;
 	background-color: #38040E;
     color: white;
+    font-family: "Raleway", sans-serif;
+}
+.fotter_text{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.adress{
+    font-size: 20px;
+    text-align: end;
+    margin-right: 40%;
+}
+.socialmedia{
+    width: 100px;
+    height: auto;
+}
+.social{
+    display: flex;
+    justify-content: center;
 }
 @keyframes cambio{
     0% { margin-left: 0;}
@@ -163,6 +206,8 @@ button{
 
     25% { margin-left: -100%;}
     45% {margin-left: -100%;}
+
+
 /* 
 
     50% { margin-left: -200%;}

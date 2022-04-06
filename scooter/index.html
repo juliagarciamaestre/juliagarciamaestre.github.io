@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/smallScoots.css">
     <link rel="stylesheet" href='CSS/mediumScoots.css'>
     <link rel="stylesheet" href="CSS/largeScoots.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
@@ -39,9 +40,9 @@
         <ul class="menunavigation">
             <li><a class='home' href='#'>Home</a></li>
             <li ><a href="rentals.html" >Rentals</a></li>
-            <li><a href='soda-springs.html'>Reservations</a></li>
-            <li><a href='fish-haven.html'>Tours</a></li>
-            <li><a href='storm-center.html'>Contact</a></li>
+            <li><a href='reservations.html'>Reservations</a></li>
+            <li><a href='tours.html'>Tours</a></li>
+            <li><a href='contact.html'>Contact</a></li>
         </ul>
     </nav>
     <main class="container">
@@ -59,7 +60,14 @@
             <section class="reserve">
                 <h1 class="h1reserve">Scoots</h1>
                 <p class="preserve">The best place in Cozumel to rent scooters, jeps and side-by side ATV'S. Getting to know Cozumel Island is just one step away.</p>
-                <button>RESERVE</button>
+                <!-- <form>
+                    <a href="reservations.html">
+                        <input type="button" value="RESERVE">
+                    </a>
+                </form> -->
+                <div class="buttoncontainer">
+                    <a class="button" href="reservations.html">Reserve</a>
+                </div>
             </section>
         </div>
         <section class="weathersummary">
@@ -113,18 +121,31 @@
             </section>
             
         </div>
-        <div class="placeholder">
-            <section class="adress">
+    </main>
+    <footer class="placeholder">
+            <p class="fotter_text">
+                <span id="copyrigth">&copy; Scoots</span> 
+                    | Attributions | Julia Garcia   
+                </p>
+            <div class="adress">
                 <h4>Scoots</h4>
                 <p>30 N 1st E</p>
                 <p>Cozumel, MX 77600</p>
-            </section>
-            <section>
                 <p>985-289-5345</p>
                 <p>scoots@gmail.com</p>
-            </section>
-        </div>
-    </main>
+            </div>
+            <div class="social">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="socialmedia" src="images/media1.png" alt="instagram logo">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="socialmedia" src="images/media2.png" alt="facebook logo">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img class="socialmedia" src="images/media3.png" alt="twitter logo">
+                    </a>
+                </div>
+    </footer>
     <script src="JS/scoots.js"></script>
 </body>
 </html>
