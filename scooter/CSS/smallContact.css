@@ -1,0 +1,139 @@
+/* Small/Phone View ***************/
+
+.headerflex{
+    background-color: #F7F7F7;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+
+nav {
+    width: 600px;
+	margin: 0 auto;
+	background-color: #38040E;
+}
+.menunavigation {
+	list-style: none;
+	padding: 0;
+    margin-top: -1px;
+}
+.menunavigation li:first-child {
+	display: block;
+}
+.menunavigation li {
+	display: none;
+}
+.menunavigation a {
+	display: block;
+	transition: 0.5s;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #F7F7F7;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    /* margin-block-start: -1em; (It also change the elements inside) */
+}
+
+.menunavigation a.home::before {
+	content: "➕";
+}
+
+.menunavigation li:hover {
+	color: black;
+	background-color: #1D492E;
+    
+}
+
+
+a.active{
+    color: #A4B9AB;
+    font-family: "Raleway", sans-serif;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.home::before {
+	content: "➖";
+}
+
+.map{
+    text-align: center;
+}
+.office{
+    background-color: #A4B9AB;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+.office h3, h4{
+    margin-left: 18px;
+}
+
+.office p{
+    margin-left: 10%;
+}
+.office h3{
+    text-decoration: underline;
+}
+.office h2{
+    font-family: "Sriracha", cursive;
+    text-align: center;
+    padding-top: 25px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.officecontainer{
+    margin-bottom: 20px;
+}
+footer{
+    margin: 0 auto;
+    padding: 5px 0;
+	background-color: #38040E;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+.fotter_text{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.adress{
+    font-size: 20px;
+    text-align: end;
+    margin-right: 40%;
+}
+.socialmedia{
+    width: 100px;
+    height: auto;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% {margin-left: -200%;} 
+}
