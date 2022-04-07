@@ -63,34 +63,6 @@ a.active{
 	content: "➖";
 }
 
-.rental{
-    background-color: #A4B9AB;
-    margin-bottom: 20px;
-    margin-top: -22px;
-    border-bottom: 10px solid #1D492E;
-}
-.rental h1{
-    padding-top: 10px;
-    text-align: center;
-    font-family: "Sriracha", cursive;
-
-}
-li{
-    font-family: "Raleway", sans-serif;  
-    font-weight: bold;
-    list-style-position: inside;
-    padding-bottom: 10px;
-}
-
-form h2, legend{
-    font-family: "Sriracha", cursive;
-}
-fieldset{
-    display: flex;
-    flex-direction: column;
-    font-family: "Raleway", sans-serif;  
-    font-weight: bold;
-}
 footer{
     margin: 0 auto;
     padding: 5px 0;
@@ -117,4 +89,14 @@ footer{
 .social{
     display: flex;
     justify-content: center;
+}
+main{
+    height:200px;
+}
+.container h1{
+    font-family: "Sriracha",cursive;
+}
+.container p{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
 }
