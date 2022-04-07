@@ -1,0 +1,11 @@
+@media only screen and (min-width: 56em) {
+    .menunavigation a{
+        font-size: 25px;
+    }
+    .tour img{
+        width: 100%;
+    }
+    .slider img{
+        width: 600px;
+    }
+  }

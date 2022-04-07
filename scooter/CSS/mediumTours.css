@@ -1,0 +1,64 @@
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.menunavigation {
+		display: flex;
+	}
+	.menunavigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.menunavigation a {
+		text-align: center;
+	}
+	.menunavigation li:first-child {
+		display: none;
+	}
+
+	a.active{
+		border-top: 1em solid #D1D3C4;
+		border-top-width: thick;
+	}
+    nav{
+        width: auto;
+    }
+
+    img{
+        width: 400px;
+        height: 267px;
+    }
+    .tour img{
+
+            width: 400px;
+            height: 267px;
+    }
+    
+	.sitesvisit{
+		margin-top: 3em;
+		display: grid;
+		grid-gap: 50px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	/* .rentals_title{
+		padding-top: 0px;
+	} */
+
+    .slider{
+		width: fit-content;
+        display: block;
+        overflow: visible;
+    }
+    .slider ul {
+        animation: none;
+    }
+	.slider img{
+		width: 400px;
+	}
+    .slidercontainer{
+	
+        margin-top: -17px;
+		/* display: flex;
+		align-items: center; */
+    }
+}

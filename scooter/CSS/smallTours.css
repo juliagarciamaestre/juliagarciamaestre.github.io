@@ -117,10 +117,55 @@ a.active{
 
 .slidercontainer{
     margin: auto;
-    margin-top: -32px;
+    margin-top: -32px;  
+    border-bottom: 10px solid #1D492E;
 }
 
+.tour{
+    margin-bottom: 20px;
+    background-color: #A4B9AB;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.tour img{
+    width: 100%;
+}
 
+.tour h2{
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+}
+
+.description{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.tour h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 18px;
+    text-decoration: underline;
+}
+
+.tour h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.sitesvisit{
+    margin-top: 20px;
+}
+
+.touradress{
+    margin-left: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
 footer{
     margin: 0 auto;
     padding: 5px 0;

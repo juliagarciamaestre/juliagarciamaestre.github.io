@@ -28,7 +28,9 @@
         width: 400px;
         height: 267px;
     }
-
+	.rentals img{
+		width: 100%;
+	}
 	.slider{
 		width: 600px;
 	}
