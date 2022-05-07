@@ -5,10 +5,9 @@ const links = [
       label: "Week1 notes",
       url: "week1/index.html",
     },
-    
     {
       label: "Week2 notes",
-      url: "week2/index.html"
+      url: "week2/index.html",
     }
   ]
 for (let i=0; i<links.length; i++){
