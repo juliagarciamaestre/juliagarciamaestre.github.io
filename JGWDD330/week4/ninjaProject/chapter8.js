@@ -32,7 +32,10 @@ const view = {
     hide(element){
         element.style.display = "none";
     },
-
+    resetFrom(){
+        this.response.answer.value = "";
+        this.response.answer.focus();
+    },
     setup(){
         this.show(this.question);
         this.show(this.response);
@@ -41,10 +44,6 @@ const view = {
         this.render(this.score, game.score);
         this.render(this.result, "");
         this.resetFrom();
-    },
-    resetFrom(){
-        this.response.answer.value = "";
-        this.response.answer.focus();
     },
     teardown(){
         this.hide(this.question);
@@ -64,7 +63,7 @@ const game = {
         this.ask();
     },
     
-    ask(){
+    ask(name){
         if(this.question.length > 0) {
             this.question = this.questions.pop();
             const question = `What is ${this.question.name}'s real name?`;
@@ -82,12 +81,12 @@ const game = {
         const response = view.response.answer.value;
         const answer = this.question.realName; 
         if(response === answer){
-        view.render(view.result, "Correct", {"class":"correct"});
-        alert("Correct!");
-        this.score++;
+            view.render(view.result, "Correct", {"class":"correct"});
+            alert("Correct!");
+            this.score++;
         } else{
-        view.render(view.result, `Wrong! The correct answer was ${answer}`, {"class": "wrong"});
-        alert(`Wrong! The correct answer was ${answer}`);
+            view.render(view.result, `Wrong! The correct answer was ${answer}`, {"class": "wrong"});
+            alert(`Wrong! The correct answer was ${answer}`);
         }
         view.resetFrom()
         this.ask()
@@ -100,4 +99,5 @@ const game = {
 }
 
 view.start.addEventListener("click", ()=> game.start(quiz), false);
+view.response.addEventListener("submit", (event)=> game.check(event), false);
 view.hide(view.response);
