@@ -32,7 +32,7 @@ const view = {
     hide(element){
         element.style.display = "none";
     },
-    resetFrom(){
+    resetForm(){
         this.response.answer.value = "";
         this.response.answer.focus();
     },
@@ -41,16 +41,17 @@ const view = {
         this.show(this.response);
         this.show(this.result);
         this.hide(this.start);
-        this.render(this.score, game.score);
-        this.render(this.result, "");
-        this.resetFrom();
+        this.render(this.score,game.score);
+        this.render(this.result,"");
+        this.render(this.info,"");
+        this.resetForm();
     },
     teardown(){
         this.hide(this.question);
         this.hide(this.response);
         this.show(this.start);
     }
-}
+};
 
 
 //namespace the functions 
@@ -67,13 +68,11 @@ const game = {
         if(this.question.length > 0) {
             this.question = this.questions.pop();
             const question = `What is ${this.question.name}'s real name?`;
-            view.render(view.question, question);
+            view.render(view.question,question);
         }
         else{
             this.gameOver();
-
         }
-
     },
 
     check(event){
@@ -82,14 +81,12 @@ const game = {
         const answer = this.question.realName; 
         if(response === answer){
             view.render(view.result, "Correct", {"class":"correct"});
-            alert("Correct!");
             this.score++;
         } else{
             view.render(view.result, `Wrong! The correct answer was ${answer}`, {"class": "wrong"});
-            alert(`Wrong! The correct answer was ${answer}`);
         }
-        view.resetFrom()
-        this.ask()
+        view.resetForm();
+        this.ask();
     },    
     
     gameOver(){
