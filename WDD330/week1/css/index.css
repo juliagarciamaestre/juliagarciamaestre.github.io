@@ -1,9 +1,10 @@
-h1{
-    background-color: blueviolet;
-}
+
 .img1, .img3, .img4{
     width: 600px;
 }
 .img2, .img5, .img6{
     width: 200px;
+}
+h1{
+    font-family: 'Parisienne', cursive; 
 }
