@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+body {
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1 {
+    margin-bottom: 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+input{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+li{
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+li button{
+
+    grid-column: 2/3;
+}
+
+#addButton, li button{ 
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2a92bb;
+    border-radius: 50%;
+    border: 2px solid #090270;
+}
+#addButton:hover, li button:hover{
+    color: #1883ba;
+    background-color: #ffff
+
+}
+#newTask{
+    padding: 5px 10px ;
+}
+
+
