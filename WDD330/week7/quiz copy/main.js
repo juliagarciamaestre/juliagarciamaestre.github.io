@@ -1,5 +1,5 @@
-const url = 'http://spbooks.github.io/questions.json';
-
+// const url = 'http://spbooks.github.io/questions.json';
+const url = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/questions.json';
 fetch(url)
 .then(res => res.json())
 .then(quiz => {
@@ -96,7 +96,6 @@ const game = {
         view.render(view.timer,game.secondsRemaining);
         if(game.secondsRemaining <=0){
             game.gameOver();
-            clearInterval(this.timer);
         }
     },
     ask(name){
