@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+.dukes ,.dukes2, .dukes3, .dukes4{
+    font-family: 'Arvo', serif;
+    color: black;
+}
+
+
+.dukes:hover span {
+    color: #a13434;  
+    transform: translateX(40px);
+    display: inline-block;
+}
+
+.dukes2:hover span{
+    color: #a13434; 
+    transform: translateX(40px) scale(1.5);
+    display: inline-block;
+}
+
+.dukes3:hover span{
+    color: #a13434; 
+    transform: rotate(10deg) translateX(40px) scale(1.5);
+    display: inline-block;
+}
+
+.skew{
+    transform: skew(15deg, 4deg);
+    color: black;
+}
+
+.dukes4:hover span{
+    color: #a13434; 
+    transform: rotate(10deg) translateX(40px) scale(1.5);
+    display: inline-block;  
+}
+
+.dukes4 span{
+    /* transition-property: transform; 
+    transition-duration: 0.2s;  
+    transition-timing-function: ease-out;
+    transition-delay: 50ms; */
+    transition: transform 0.2s ease-out 50ms;
+}
+
+@keyframes bike {
+    0% {
+    background-position: 0 0;
+    }
+    100% {
+    background-position: -360px 0;
+    }
+   }
+
+   @keyframes move {
+    0% {
+    transform: translateX(-100px);
+    }
+    100% {
+    transform: translateX(100px);
+    }
+   }
+
+    .ad-ad3 h2:after {
+    content: '';
+    width: 90px;
+    height: 92px;
+    background-image: url(../images/bike_sprite.png);
+    display: block;
+    margin: auto;
+    animation:
+        0.4s steps(4, end) infinite 50ms bike,
+        8s linear infinite 50ms move;
+        animation-play-state: paused;
+   }
+   .ad-ad3 h2:hover:after {
+    animation-play-state: running;
+   }

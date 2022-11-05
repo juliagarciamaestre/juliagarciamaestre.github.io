@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 h1{
     font-family: 'Parisienne', cursive; 
     color: rgb(217, 166, 241);
     font-size: 70px;
     margin-left: 10px;
+}
+h2{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(138, 9, 116);
 }
