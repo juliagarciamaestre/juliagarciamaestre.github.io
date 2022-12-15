@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=VT323&display=swap'); 
+.title{
+    font-family: 'VT323', monospace;
+    margin: 0 auto;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 36, 189);
+}
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+h2, h1{
+    font-family: 'VT323', monospace;
+}
+
+label, button{
+    font-family: 'PT Sans', sans-serif;
+}
+h2 {
+    font-size: 40px;
+}
+
+.fav-title{
+
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    margin: 0 auto;
+    color: rgb(45, 144, 173);
+}
+
+
+.result{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    flex-direction: column;
+    border-style: solid;
+    height: 320px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border-color: rgb(45, 144, 173);
+    border-radius: 5%;
+    max-width: 1000px;
+}
+
+img{
+    background-color: rgb(45, 144, 173);
+	border-radius: 50%;
+	text-align: center;
+    margin: auto;
+}
+
+.single-pokemon p{
+    margin: 0 auto;
+    font-size: 30px;
+    color: rgb(45, 144, 173);
+}
+
+.single-pokemon h3{
+    font-family:  'VT323', monospace;
+    margin: 0 auto;
+    font-size: 50px;
+    color: rgb(45, 144, 173);
+}
+
+.single-pokemon{
+    display: flex;
+}
+button{
+    width: 100px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: initial;
+    margin: 0 auto;
+}
