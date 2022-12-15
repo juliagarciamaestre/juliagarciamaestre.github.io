@@ -60,12 +60,14 @@ function getPokemon(id){
             favorite.addEventListener('click', e=>{
                 e.preventDefault();
                 let pokemonFav = document.createElement('div');
-                favs.appendChild(pokemonFav);
+                pokemonFav.classList.add('favorites');
+                
 
-                favs.appendChild(name);
-                favs.appendChild(number);
-                favs.appendChild(image);
+                pokemonFav.appendChild(name);
+                pokemonFav.appendChild(number);
+                pokemonFav.appendChild(image);
                 buttons.removeChild(favorite);
+                favs.appendChild(pokemonFav);
                 result.removeChild(pokemonInfo);
 
             })
